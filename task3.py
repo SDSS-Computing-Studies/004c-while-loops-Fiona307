@@ -21,7 +21,7 @@ That is an even integer
 """
 
 number = ""
-x = x
+
 while x % 1 != 0 or x % 2 != 0:
     number = (input("Enter a number")).strip()
     x = float(number)
