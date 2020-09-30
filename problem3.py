@@ -15,9 +15,10 @@ Example:
 """
 
 x = 1
-
-while x <= 100:
-    print(x)
-    x = x + x
-    if x > 100:
+y = 1
+while x <= 100 or y <= 100:
+    print(x,y,end=""+" ")
+    x = x + y
+    y = x + y
+    if x > 100 and y > 100:
         break
